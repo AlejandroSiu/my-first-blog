@@ -25,7 +25,7 @@ SECRET_KEY = 'nl1tylxvs!o-2sv$a(wa91egz*4&#joy76a#y9a()&z)6n%0!8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'community.pythonanywhere.com', 'chino2019myblog.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-   'blog',
+    'blog',
 ]
 
 MIDDLEWARE = [
